@@ -34,7 +34,7 @@ links:
 # ------------------------------------------------------------
 analytics:
   google_id: ""      # Google Analytics 4 measurement ID, e.g. "G-ABC123XYZ"
-  goatcounter: ""    # GoatCounter site code, e.g. "vishanth" for vishanth.goatcounter.com
+  goatcounter: "vishanth" # GoatCounter site code, e.g. "vishanth" for vishanth.goatcounter.com
 
 # ------------------------------------------------------------
 #  Build
