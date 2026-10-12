@@ -8,6 +8,47 @@ nav_order: 4
 ---
 
 <figure style="display: flex; align-items: center;">
+    <figcaption>
+        <b>Staff Machine Learning Engineer - Zscaler</b><br>
+        Oct 2026 - Present · San Jose, CA
+    </figcaption>
+</figure>
+
+Leading the AI Guard ML R&D initiative:
+- R&D lead for jailbreak / prompt-injection and other LLM security detectors (fine-tuning, LoRA)
+- ML inference scalability and optimisation for production model deployment (GPUs, TensorRT, ONNX)
+- Benchmarking GPUs (including AMD) for self-hosting and optimising ML models
+
+<hr style="border:2px solid gray">
+
+<figure style="display: flex; align-items: center;">
+    <figcaption>
+        <b>Senior Machine Learning Engineer - Zscaler</b><br>
+        Dec 2025 - Oct 2026 · San Jose, CA
+    </figcaption>
+</figure>
+
+AI Guard R&D, protecting LLM applications from prompt injection, jailbreaks and data leakage:
+- Developed and researched state-of-the-art detection models by fine-tuning encoder and decoder LLMs
+- Scaled and optimised model inference with ONNX, TensorRT and vLLM on GPUs/TPUs
+- Built MLOps for the AI Guard product's detectors
+
+<hr style="border:2px solid gray">
+
+<figure style="display: flex; align-items: center;">
+    <figcaption>
+        <b>AI/ML Software Engineer - Cornami, Inc.</b><br>
+        Feb 2025 - Dec 2025 · San Jose, CA
+    </figcaption>
+</figure>
+
+- Developed and validated LLM engines for Llama 4, DeepSeek V3 / R1 and Llama 3.3 70B, optimising inference with KV cache, flash attention, quantization, tensor parallelism and data parallelism
+- Benchmarked models across TensorRT-LLM, vLLM, llama.cpp, Hugging Face and Ollama, analysing performance data to drive engineering and business decisions
+- Researched inference strategies for in-house Fractal cores and ran 70B+ models on DGX H100 servers using distributed techniques (TP, FSDP)
+
+<hr style="border:2px solid gray">
+
+<figure style="display: flex; align-items: center;">
     <img src="../assets/img/disney.jpg" alt="Disney Logo" style="width:80px; margin-right: 10px;"/>
     <figcaption>
         <b>Data Scientist - ML Research (Coop) </b><br>
@@ -45,11 +86,12 @@ support images, ppt format files using OCR (multimodal), embedding using nomic-a
     <img src="../assets/img/ucla.png" alt="UCLA Logo" style="width:50px; margin-right: 10px;"/>
     <figcaption>
         <b>Graduate Teaching / Research Assistant - UCLA</b><br>
-        Jan 2024 - April 2024
+        Jan 2024 - Nov 2024
     </figcaption>
 </figure>
 
-- Developed statistical software/libraries (in python) for hypothesis testing for Life Science Dept for clinical and research usage [Learn more](https://pypi.org/project/statistics-library/).
+- Developed statistical software/libraries (in python) for hypothesis testing for Life Science Dept for clinical and research usage, published as the open-source [resamp](https://pypi.org/project/resamp) library ([earlier version](https://pypi.org/project/statistics-library/)).
+- Teaching/Course Assistant for MGMT 264A Market Research (customer segmentation, K-means and hierarchical clustering) and grader for NLP in Social Science (Fall 2024).
 
 <hr style="border:1px solid gray">
 
@@ -69,11 +111,6 @@ alert/classification (NLP), Batch Alert Automation, Impact Analysis prediction (
 -  Designed new pipeline/infra for MLOPS: Established infrastructure & managed production servers for MLOps operations
 
 <i>Stack: ML/NLP models (TensorFlow, Ski learn), ReactJS, APIs (flask, JWT), SQL, Microservices, ServiceNow, Spark.</i>
-
-**Achievements:** [Citi Awards and Recognitions](https://drive.google.com/file/d/1vz_iv6zuMCkshuL85D0IB-uaBy-M19_y/view?usp=sharing)
-- Gold Gratitude Award
-- Bronze, Copper Gratitude Award
-- Client Obessision Award, Bravo Award
 
 **Achievements:** [Citi Awards and Recognitions](https://drive.google.com/file/d/1vz_iv6zuMCkshuL85D0IB-uaBy-M19_y/view?usp=sharing)
 - Gold Gratitude Award

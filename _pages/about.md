@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MS BA at UCLA (University of California, Los Angeles) Anderson School of Management
+subtitle: Staff Machine Learning Engineer @ Zscaler · MS @ UCLA Anderson · NIT Trichy
 
 profile:
   align: left
@@ -20,22 +20,26 @@ social: true  # includes social icons at the bottom of the page
 
 ## Welcome! 👋
 
-I'm Vishanth Hari Raj, a Master's student at [UCLA](https://www.ucla.edu/), specializing in ML,Data Science/Business Analytics. My journey began with a BS in Industrial Engineering and a minor in CS from [NIT-T](https://www.nitt.edu/), leading me to a role as a Software Development Engineer at [Citi's Global Wealth Division](http://www.citi.com), before diving deep into the realms of AI and Operations.
+I'm Vishanth Hari Raj, a **Staff Machine Learning Engineer at [Zscaler](https://www.zscaler.com/)** in San Jose, California, where I lead ML R&D for **AI Guard**, Zscaler's product that protects LLM applications from jailbreaks, prompt injection and data leakage.
 
-### Passion for Technology 🚀
+Before Zscaler, I built and benchmarked LLM inference engines at [Cornami](https://cornami.com/) (Llama 4, DeepSeek V3/R1, Llama 3.3 70B on DGX H100), worked on causal inference for payments as a Data Scientist at [The Walt Disney Company](https://www.thewaltdisneycompany.com/), and spent over two years as a Software Engineer in AI/ML innovation at [Citi](https://www.citi.com/). I hold an MS in Business Analytics (Data Science) from [UCLA Anderson](https://www.anderson.ucla.edu/) and a B.Tech from [NIT Trichy](https://www.nitt.edu/).
 
-My expertise lies in **Generative AI and Machine Learning**, fields that are reshaping our world. With proficiency in Python, TensorFlow, and C/C++, I'm dedicated to solving complex problems and making a societal impact through technology.
+### What I work on 🚀
 
-### My Mission 🌟
+- **LLM security:** jailbreak and prompt-injection detectors, built by fine-tuning encoder and decoder models (LoRA and full fine-tuning)
+- **ML inference at scale:** optimising production model serving with TensorRT, ONNX and vLLM, and benchmarking GPUs (NVIDIA, AMD) for self-hosted models
+- **Distributed LLM serving:** tensor and data parallelism, FSDP, KV caching, flash attention and quantization
+- **MLOps:** taking models from research to reliable production systems
 
-As I navigate through my MS at UCLA, my goal is to harness data science and machine learning for innovative solutions. **I'm open to full-time roles starting Jan 2025** in Data Science, ML/AI Engineer and Business Analytics/Strategy domains.
-
-Let's connect and explore how we can drive technological advancements together!
-
-*Here's to creating a future driven by data and innovation.* 🌐❤️
+Let's connect: I'm always happy to talk about LLM security, inference optimisation and applied ML.
 
 ### Skills 🧠 
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![NVIDIA](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=for-the-badge)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -43,7 +47,6 @@ Let's connect and explore how we can drive technological advancements together!
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)

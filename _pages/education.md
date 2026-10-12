@@ -14,7 +14,7 @@ nav_order: 3
         <div>
             <h3 style="margin: 0; font-size: 1.5em;"><b>MS in Business Analytics, Specialised Data Science/Machine Learning</b></h3>
             <p style="margin: 0; font-size: 1.2em;">University of California, Los Angeles</p>
-            <span style="font-size: 1.1em;">Sep 2023 - Dec 2024 (Expected)</span>
+            <span style="font-size: 1.1em;">Sep 2023 - Dec 2024</span>
         </div>
     </div>
 
@@ -33,7 +33,7 @@ nav_order: 3
         <div>
             <h3 style="margin: 0; font-size: 1.5em;"><b>BS Industrial Engineering, Computer Science</b></h3>
             <p style="margin: 0; font-size: 1.2em;">National Institute of Technology, Tiruchirapalli (NIT-T)</p>
-            <span style="font-size: 1.1em;">Jul 2017 - May 2022</span>
+            <span style="font-size: 1.1em;">Jul 2017 - Jun 2021</span>
         </div>
     </div>
 
