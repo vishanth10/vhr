@@ -16,6 +16,9 @@ Almost everything lives in `_data/`, so you rarely need to touch HTML:
 
 The page layout is `index.html`; styles are in `assets/css/style.css`; interactions in `assets/js/main.js`.
 
+## Résumé
+The PDF is `assets/Vishanth_HariRaj_Resume.pdf`. Its source is `_resume/resume.html` (not published). To regenerate it, print that file to PDF with Chrome (Letter, no headers/footers).
+
 ## Analytics
 Set `analytics.google_id` (GA4) and/or `analytics.goatcounter` in `_config.yml`. Scripts load only on the live site.
 
