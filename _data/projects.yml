@@ -1,0 +1,60 @@
+# category must match one of the filter keys in index.html: llm, dl, oss
+- title: "resamp: Statistics for Bioscience"
+  category: oss
+  blurb: Open-source Python library for bootstrapping, resampling, power analysis and hypothesis testing, used in UCLA's LS 40 Statistics in Bioscience.
+  tags: [Python, Statistics, PyPI]
+  url: https://pypi.org/project/resamp/
+  link_label: PyPI
+
+- title: LLM Recommender
+  category: llm
+  blurb: Recommends the right LLM for a prompt, using vector search over embeddings built from GitHub, Hugging Face, OpenAI and Twitter APIs.
+  tags: [Embeddings, Vector Search, APIs]
+  url: https://github.com/vishanth10/llm-recommender
+  link_label: GitHub
+
+- title: RAG Semantic Search Engine
+  category: llm
+  blurb: End-to-end retrieval-augmented generation system with a metadata index and semantic chunking for accurate document search.
+  tags: [RAG, Semantic Chunking, Hugging Face]
+  url: https://huggingface.co/spaces/vhr1007/traversaal_test
+  link_label: Live demo
+
+- title: Multimodal GAN for Fake Detection
+  category: dl
+  metric: 97.59% accuracy
+  blurb: Multimodal GAN combining ResNet image features and BERT text features to detect fake data. Top 1% of the class.
+  tags: [GAN, ResNet, BERT]
+  url: https://github.com/vishanth10/Advance_ML
+  link_label: GitHub
+
+- title: MobileNet Image Classification
+  category: dl
+  metric: 92% accuracy
+  blurb: MobileNet CNN classifying COCO images for the presence of people, with data augmentation and efficiency tuning. Top 1% of the class.
+  tags: [CNN, MobileNet, COCO]
+  url: https://github.com/vishanth10/Advance_ML
+  link_label: GitHub
+
+- title: Denoising Autoencoder
+  category: dl
+  metric: 0.003 MSE
+  blurb: Encoder–decoder architecture for denoising and reconstruction, with MLflow-driven hyperparameter tuning.
+  tags: [Autoencoder, MLflow]
+  url: https://github.com/vishanth10/Advance_ML
+  link_label: GitHub
+
+- title: RNN Weather Forecasting
+  category: dl
+  metric: 91.19% accuracy
+  blurb: Custom recurrent network predicting temperature from historical weather, with time-series feature engineering.
+  tags: [RNN, Time Series]
+  url: https://github.com/vishanth10/Advance_ML
+  link_label: GitHub
+
+- title: Defect Detection with Deep Learning
+  category: dl
+  blurb: Image-recognition model for automated defect detection, replacing manual inspection. Undergraduate thesis.
+  tags: [Computer Vision, Thesis]
+  url: https://drive.google.com/file/d/10rMigiXUdqqRzCQygNzRj-Fk0WTF6Sa2/view
+  link_label: Thesis

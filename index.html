@@ -1,0 +1,235 @@
+---
+layout: default
+title: Vishanth Hari Raj | Staff Machine Learning Engineer
+---
+{% assign current = site.data.experience | first %}
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <p class="kicker mono">// {{ site.tagline }}</p>
+      <h1>Hi, I'm <span class="grad">Vishanth</span>.</h1>
+      <p class="typed-line">I <span class="typed" data-words='["build &amp; fine-tune AI guardrails against jailbreaks.", "stop prompt-injection attacks on LLMs.", "doubled GPU inference throughput (2× RPS).", "halved model latency with GPU optimisation.", "saved ~$2M a year through inference optimisation."]'>build &amp; fine-tune AI guardrails against jailbreaks.</span><span class="caret" aria-hidden="true"></span></p>
+      <p class="lead">Staff Machine Learning Engineer at <a href="{{ current.url }}" target="_blank" rel="noopener">Zscaler</a>, leading ML R&amp;D for <strong>AI Guard</strong>. I build and fine-tune guardrail models that stop jailbreaks and prompt injection, and I optimise GPU inference for <strong>2× throughput at half the latency</strong>. Previously Cornami, Disney and Citi.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="#experience">See my work <span aria-hidden="true">→</span></a>
+      </div>
+      <ul class="socials" aria-label="Profiles">
+        <li><a href="{{ site.links.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg></a></li>
+        <li><a href="{{ site.links.github }}" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg></a></li>
+        <li><a href="{{ site.links.huggingface }}" target="_blank" rel="noopener" aria-label="Hugging Face"><span class="hf">🤗</span></a></li>
+        <li><a href="mailto:{{ site.email }}" aria-label="Email"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg></a></li>
+      </ul>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="photo-card tilt">
+        <img src="{{ '/assets/vishanth.jpg' | relative_url }}" alt="Vishanth Hari Raj Balasubramanian" width="800" height="1000" fetchpriority="high">
+      </div>
+      <div class="chip chip-a"><span class="pulse"></span> Now: AI Guard ML R&amp;D</div>
+      <div class="chip chip-b mono">📍 {{ site.location }}</div>
+      <div class="chip chip-c mono">ex-Citi · Disney · Cornami</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats container reveal" aria-label="Highlights">
+  {% for s in site.data.stats %}
+  <div class="stat">
+    <strong><span>{{ s.prefix }}</span><span class="count" data-to="{{ s.value }}">{{ s.value }}</span><span>{{ s.suffix }}</span></strong>
+    <span>{{ s.label }}</span>
+  </div>
+  {% endfor %}
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker mono">01 · About</p>
+      <h2>Making LLMs <span class="grad">safe</span> and <span class="grad">fast</span>.</h2>
+    </header>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a machine learning engineer working where model research meets production systems. At Zscaler I build and fine-tune the AI guardrail models in AI Guard, which stop jailbreak and prompt-injection attacks before they reach an LLM. I also make those models fast and cheap at scale: my GPU inference optimisations doubled throughput, halved latency and save roughly $2M a year.</p>
+        <p>Before that I built and benchmarked inference engines for frontier open models (Llama 4, DeepSeek V3/R1) on DGX H100 at Cornami. I ran causal-inference research on payments at Disney, built RAG products at traversaal.ai, and spent two years building AIOps systems at Citi.</p>
+        <p>I hold an MS in Business Analytics (Data Science) from <strong>UCLA Anderson</strong> and a B.Tech from <strong>NIT Trichy</strong>, so I care as much about the business impact as the model metrics.</p>
+      </div>
+      <div class="focus-grid">
+        <article class="focus card reveal">
+          <div class="focus-icon">🛡️</div>
+          <h3>AI Guardrails &amp; Security</h3>
+          <p>I build and fine-tune AI guardrail models that detect jailbreaks, prompt injection and data leakage in Zscaler's AI Guard.</p>
+        </article>
+        <article class="focus card reveal">
+          <div class="focus-icon">⚡</div>
+          <h3>Inference Optimisation</h3>
+          <p>GPU optimisation with TensorRT, ONNX and vLLM: <strong>2× RPS</strong>, <strong>~50% lower latency</strong> and <strong>~$2M/year</strong> saved.</p>
+        </article>
+        <article class="focus card reveal">
+          <div class="focus-icon">🧩</div>
+          <h3>Distributed Serving</h3>
+          <p>Tensor &amp; data parallelism, FSDP, KV caching, flash attention and quantization for 70B+ models.</p>
+        </article>
+        <article class="focus card reveal">
+          <div class="focus-icon">🔁</div>
+          <h3>MLOps</h3>
+          <p>Taking models from research notebooks to reliable, monitored production systems.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker mono">02 · Experience</p>
+      <h2>Where I've worked</h2>
+      <p class="sub">Click a role to expand the details.</p>
+    </header>
+    <ol class="timeline">
+      {% for job in site.data.experience %}
+      <li class="job reveal">
+        <span class="job-dot" aria-hidden="true"></span>
+        <div class="job-card card">
+          <div class="job-head">
+            {% if job.logo_img %}<img class="job-logo logo-img" src="{{ job.logo_img | relative_url }}" alt="{{ job.company }} logo" width="44" height="44" loading="lazy">{% else %}<div class="job-logo" aria-hidden="true">{{ job.logo }}</div>{% endif %}
+            <div>
+              <h3>{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h3>
+              <p class="muted mono small">{{ job.location }}</p>
+            </div>
+          </div>
+          {% for role in job.roles %}
+          <details class="role" {% if forloop.parentloop.first and forloop.first %}open{% endif %}>
+            <summary>
+              <span class="role-title">{{ role.title }}</span>
+              <span class="role-dates mono">{{ role.dates }}</span>
+              <span class="chev" aria-hidden="true"></span>
+            </summary>
+            <ul class="highlights">
+              {% for h in role.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+            </ul>
+          </details>
+          {% endfor %}
+          {% if job.awards %}
+          <p class="awards"><span>🏆</span> {{ job.awards | join: " · " }}</p>
+          {% endif %}
+          {% if job.tags %}
+          <ul class="tags">{% for t in job.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker mono">03 · Projects</p>
+      <h2>Things I've built</h2>
+    </header>
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter" data-filter="llm" aria-pressed="false">LLMs &amp; GenAI</button>
+      <button class="filter" data-filter="dl" aria-pressed="false">Deep Learning</button>
+      <button class="filter" data-filter="oss" aria-pressed="false">Open Source</button>
+    </div>
+    <div class="project-grid">
+      {% for p in site.data.projects %}
+      <a class="project card reveal" href="{{ p.url }}" target="_blank" rel="noopener" data-cat="{{ p.category }}">
+        <div class="project-top">
+          <span class="folder" aria-hidden="true">{% case p.category %}{% when 'llm' %}✨{% when 'oss' %}📦{% else %}🧠{% endcase %}</span>
+          <span class="project-link mono">{{ p.link_label }} ↗</span>
+        </div>
+        <h3>{{ p.title }}</h3>
+        {% if p.metric %}<p class="metric mono">{{ p.metric }}</p>{% endif %}
+        <p>{{ p.blurb }}</p>
+        <ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker mono">04 · Skills</p>
+      <h2>Toolbox</h2>
+    </header>
+    <div class="skills-grid">
+      {% for g in site.data.skills %}
+      <div class="skill-group card reveal">
+        <h3>{{ g.group }}</h3>
+        <ul class="skill-chips">{% for s in g.items %}<li>{{ s }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker mono">05 · Education &amp; Recognition</p>
+      <h2>Learning never stops</h2>
+    </header>
+    <div class="edu-grid">
+      <div class="edu-list">
+        {% for e in site.data.education %}
+        <article class="edu card reveal">
+          {% if e.logo_img %}<img class="edu-logo logo-img" src="{{ e.logo_img | relative_url }}" alt="{{ e.school }} logo" width="64" height="64" loading="lazy">{% else %}<div class="job-logo" aria-hidden="true">{{ e.logo }}</div>{% endif %}
+          <div>
+            <p class="role-dates mono">{{ e.dates }}</p>
+            <h3>{{ e.school }}</h3>
+            {% if e.rank %}<p class="rank">🏅 {{ e.rank }}</p>{% endif %}
+            <p class="degree">{{ e.degree }}</p>
+            <p class="muted small">{{ e.notes }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="honors card reveal">
+        <h3>Certifications</h3>
+        <ul class="check-list">{% for c in site.data.honors.certifications %}<li>{{ c }}</li>{% endfor %}</ul>
+        <h3>Honors &amp; Awards</h3>
+        <ul class="check-list star">{% for a in site.data.honors.awards %}<li>{{ a }}</li>{% endfor %}</ul>
+        <h3>Languages</h3>
+        <p class="muted">{{ site.data.honors.languages | join: " · " }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact card reveal">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <p class="kicker mono">06 · Contact</p>
+      <h2>Let's build something <span class="grad">together</span>.</h2>
+      <p class="lead">I'm always happy to talk about LLM security, inference optimisation and applied ML, whether that's collaborating, speaking or just swapping ideas.</p>
+      <div class="contact-actions">
+        <button class="btn btn-primary copy-email" data-email="{{ site.email }}">
+          <span class="copy-label">{{ site.email }}</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V5a1 1 0 0 1 1-1h9" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <a class="btn btn-ghost" href="{{ site.links.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn btn-ghost" href="{{ site.links.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="toast" role="status" aria-live="polite" hidden></div>

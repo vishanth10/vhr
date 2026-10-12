@@ -1,36 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <!-- Head -->
-  <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
   {% include head.html %}
-  </head>
-
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
-    {%- include header.html %}
-
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
-    </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
-
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-  </body>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="spotlight" aria-hidden="true"></div>
+  {% include nav.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% include palette.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</body>
 </html>

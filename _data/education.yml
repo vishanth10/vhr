@@ -1,0 +1,14 @@
+- school: UCLA Anderson School of Management
+  degree: MS, Business Analytics (Data Science)
+  dates: Sep 2023 – Dec 2024
+  logo: U
+  logo_img: /assets/logos/ucla.png
+  rank: "#1 Public University in the US · U.S. News & World Report (2026)"
+  notes: Machine Learning, Advanced ML, Optimisation, A/B Testing, Data Management, Market Analytics
+- school: National Institute of Technology, Tiruchirappalli
+  degree: B.Tech, Production Engineering · Minor in Computer Science
+  dates: Jul 2017 – Jun 2021
+  logo: N
+  logo_img: /assets/logos/nitt.png
+  rank: "#9 Engineering Institute in India · NIRF 2025 · Top-ranked NIT"
+  notes: "GPA 9.1 / 10 · Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Operations Research"

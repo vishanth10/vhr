@@ -1,0 +1,19 @@
+<div class="palette" role="dialog" aria-modal="true" aria-label="Command menu" hidden>
+  <div class="palette-box">
+    <input class="palette-input" type="text" placeholder="Type a command or search…" aria-label="Search commands" autocomplete="off">
+    <ul class="palette-list" role="listbox">
+      <li role="option" data-href="#about">Go to About</li>
+      <li role="option" data-href="#experience">Go to Experience</li>
+      <li role="option" data-href="#projects">Go to Projects</li>
+      <li role="option" data-href="#skills">Go to Skills</li>
+      <li role="option" data-href="#education">Go to Education</li>
+      <li role="option" data-href="#contact">Go to Contact</li>
+      <li role="option" data-action="copy-email">Copy email address</li>
+      <li role="option" data-action="theme">Toggle light / dark theme</li>
+      <li role="option" data-href="{{ site.links.linkedin }}" data-external>Open LinkedIn</li>
+      <li role="option" data-href="{{ site.links.github }}" data-external>Open GitHub</li>
+      <li role="option" data-href="{{ site.links.pypi }}" data-external>Open resamp on PyPI</li>
+    </ul>
+    <p class="palette-hint mono"><kbd>↑</kbd><kbd>↓</kbd> navigate · <kbd>↵</kbd> select · <kbd>esc</kbd> close</p>
+  </div>
+</div>

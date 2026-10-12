@@ -1,0 +1,131 @@
+# Most recent first. Each company can hold several roles.
+- company: Zscaler
+  logo_img: /assets/logos/zscaler.png
+  url: https://www.zscaler.com/
+  location: San Jose, CA
+  logo: Z
+  roles:
+    - title: Staff Machine Learning Engineer
+      dates: Oct 2026 – Present
+      highlights:
+        - Leading the **AI Guard ML R&D initiative**, Zscaler's product that protects LLM applications
+        - Build and fine-tune **AI guardrail models** that detect **jailbreak and prompt-injection** attacks (encoder/decoder fine-tuning, LoRA)
+        - GPU inference optimisation (TensorRT, ONNX) that delivered **2× requests per second** and **~50% lower latency**, saving **~$2M per year**
+        - Benchmarking GPUs, including AMD, for self-hosting and optimising ML models
+    - title: Senior Machine Learning Engineer
+      dates: Dec 2025 – Oct 2026
+      highlights:
+        - Researched and developed state-of-the-art detectors for prompt injection, jailbreaks and LLM data leakage by fine-tuning **encoder and decoder** models
+        - Scaled and optimised model inference with **ONNX, TensorRT and vLLM** on GPUs/TPUs
+        - Built **MLOps** for the AI Guard detectors, taking them from research to production
+  tags: [LLM Security, Fine-tuning, TensorRT, ONNX, vLLM, MLOps]
+
+- company: Cornami, Inc.
+  logo_img: /assets/logos/cornami.svg
+  url: https://cornami.com/
+  location: San Jose, CA
+  logo: C
+  roles:
+    - title: AI/ML Software Engineer
+      dates: Feb 2025 – Dec 2025
+      highlights:
+        - Developed and validated LLM engines for **Llama 4, DeepSeek V3 / R1 and Llama 3.3 70B**, optimising inference with KV cache, flash attention, quantization, tensor and data parallelism
+        - Benchmarked models across **TensorRT-LLM, vLLM, llama.cpp, Hugging Face and Ollama**, turning performance data into engineering and business recommendations
+        - Researched inference strategies for in-house Fractal cores and ran **70B+ models on DGX H100** with distributed techniques (TP, FSDP)
+  tags: [LLM Inference, DGX H100, TensorRT-LLM, vLLM, FSDP]
+
+- company: The Walt Disney Company
+  logo_img: /assets/logos/disney.png
+  url: https://www.thewaltdisneycompany.com/
+  location: Los Angeles, CA
+  logo: D
+  roles:
+    - title: Data Scientist, ML Research (Co-op)
+      dates: Sep 2024 – Dec 2024
+      highlights:
+        - Built a **causal inference** model measuring the impact of each payment provider by region, optimising payment processing and processor fees, **reducing costs by 10%**
+        - Engineered ML models for churn, interchange fees, payment failures and chargebacks
+        - Executive KPI dashboard over a **10-billion-row** payments pipeline; optimised Snowflake data models and ETL
+  tags: [Causal Inference, Snowflake, Experimentation]
+
+- company: traversaal.ai
+  logo_img: /assets/logos/traversaal.png
+  url: https://traversaal.ai/
+  location: Los Angeles, CA
+  logo: T
+  roles:
+    - title: Machine Learning Engineer
+      dates: Jun 2024 – Aug 2024
+      highlights:
+        - Built an enterprise **multimodal RAG** chatbot (images and slides via OCR) with semantic search for traversaal-pro
+        - Designed the end-to-end ingestion pipeline (upload → S3 → embeddings → Qdrant) with retrieval, ranking and auth
+        - Fine-tuned Llama models for ranking and retrieval; semantic chunking gave **20% better retrieval accuracy**
+        - Shipped FastAPI services on AWS as API-as-a-Service for clients
+  tags: [RAG, LangChain, FastAPI, Qdrant, AWS]
+
+- company: UCLA
+  logo_img: /assets/logos/ucla.png
+  url: https://www.ucla.edu/
+  location: Los Angeles, CA
+  logo: U
+  roles:
+    - title: Graduate Teaching & Research Assistant
+      dates: Jan 2024 – Nov 2024
+      highlights:
+        - Built open-source statistics libraries for bioscience (power analysis, hypothesis testing, resampling), published as **[resamp](https://pypi.org/project/resamp/)** on PyPI
+        - Teaching assistant for LS 40 Statistics in Bioscience and MGMT 264A Market Research; grader for NLP in Social Science
+  tags: [Open Source, Statistics, Teaching]
+
+- company: Citi
+  logo_img: /assets/logos/citi.png
+  url: https://www.citi.com/
+  location: Chennai, India
+  logo: C
+  roles:
+    - title: Software Engineer 2, AI/ML Innovation
+      dates: Jul 2022 – Sep 2023
+      highlights:
+        - Tech Innovation Manager for the APAC–EMEA Business Command Center and HNI team at Citi Global Wealth
+        - Built ML-driven bots and dashboards (NLP, regression, text mining) to predict and monitor major incidents, **saving ~$250K per year**
+        - Centralised monitoring that **reduced downtime by 10%**; sentiment-analysis dashboard for the Citibank app
+    - title: Software Engineer
+      dates: Jul 2021 – Jul 2022
+      highlights:
+        - Tech lead at the AIOps Innovation Lab, where I designed the stack (Angular, Node.js, Flask) and Jenkins CI/CD, and set up production infrastructure
+        - Integrated Splunk, ServiceNow and IBM Cognos via REST into a central pipeline for incident forecasting dashboards
+        - Introduced Agile/Scrum SDLC, saving 100+ person-hours
+  awards: [Gold Gratitude Award, Bronze & Copper Gratitude Awards, Client Obsession Award, Bravo Award]
+  tags: [AIOps, NLP, Full-stack, CI/CD]
+
+- company: VEvolve Software
+  logo_img: /assets/logos/vevolve.png
+  location: Tamil Nadu, India
+  logo: V
+  roles:
+    - title: Machine Learning Engineer (Intern)
+      dates: May 2020 – Aug 2020
+      highlights:
+        - ML models (text mining, web scraping, random forests) to assess PHP application security vulnerabilities, generating a **$30K revenue share**
+  tags: [Cybersecurity, ML]
+
+- company: Concordia University, John Molson School of Business
+  logo_img: /assets/logos/concordia.png
+  location: Montréal, Canada (remote)
+  logo: C
+  roles:
+    - title: MITACS Globalink Research Intern
+      dates: Apr 2020 – Jul 2020
+      highlights:
+        - Built a heuristic assortment-optimisation model with Prof. Satyaveer, **increasing modelled profit by 6%** for Walmart Canada
+  tags: [Optimisation, Research]
+
+- company: IIT Madras
+  logo_img: /assets/logos/iitm.png
+  location: Chennai, India
+  logo: I
+  roles:
+    - title: Summer Research Intern, Data Analysis
+      dates: May 2019 – Jul 2019
+      highlights:
+        - MATLAB data-analysis model for a single-cylinder Gasoline Direct Injection engine at the NCCRD lab, detecting abnormalities in engine parameters
+  tags: [Research, MATLAB]

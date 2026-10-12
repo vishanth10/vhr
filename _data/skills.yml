@@ -1,0 +1,8 @@
+- group: LLMs & Machine Learning
+  items: [PyTorch, TensorFlow, Hugging Face Transformers, LoRA / Fine-tuning, LangChain, RAG, scikit-learn, Causal Inference]
+- group: Inference & Serving
+  items: [TensorRT, TensorRT-LLM, ONNX Runtime, vLLM, llama.cpp, Ollama, Tensor Parallelism, FSDP, Quantization, NVIDIA DGX H100]
+- group: Engineering & MLOps
+  items: [Python, C++, SQL, FastAPI, Flask, Node.js, React, Angular, Docker, AWS, Azure, Jenkins CI/CD, Git]
+- group: Data & Analytics
+  items: [Spark, Snowflake, PostgreSQL / pgvector, Qdrant, Tableau, Power BI, Splunk, R, MATLAB]

@@ -1,0 +1,13 @@
+- value: 2
+  prefix: "~$"
+  suffix: "M"
+  label: Saved per year through inference optimisation
+- value: 2
+  suffix: "×"
+  label: Requests per second after GPU optimisation
+- value: 50
+  suffix: "%"
+  label: Lower inference latency
+- value: 70
+  suffix: "B+"
+  label: Parameter LLMs optimised on DGX H100

@@ -1,9 +1,0 @@
----
-layout: page
-title: ML Model to Predict the Vulnerability of the php Application
-description: Developed a ML Model model to predict the vulnerability of an applications
-redirect: https://github.com/beastmaster064/VEvolve-Software-ML-Project
-img: assets/img/php.png
-importance: 2
-category: Internships
----
